@@ -1,0 +1,21 @@
+{
+    "accountId": 0,
+    "displayName": "",
+    "internalName": "",
+    "nameChangeFlag": false,
+    "percentCompleteForNextLevel": 0,
+    "profileIconId": 0,
+    "puuid": "",
+    "rerollPoints": {
+        "currentPoints": 0,
+        "maxRolls": 0,
+        "numberOfRolls": 0,
+        "pointsCostToRoll": 0,
+        "pointsToReroll": 0
+    },
+    "summonerId": 0,
+    "summonerLevel": 0,
+    "unnamed": false,
+    "xpSinceLastLevel": 0,
+    "xpUntilNextLevel": 0
+}

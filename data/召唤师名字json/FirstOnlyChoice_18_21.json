@@ -1,0 +1,41 @@
+{
+    "accountId": 4123956255,
+    "displayName": "FirstOnlyChoice",
+    "internalName": "FirstOnlyChoice",
+    "nameChangeFlag": false,
+    "percentCompleteForNextLevel": 8,
+    "profileIconId": 4379,
+    "puuid": "09cbf291-37db-5a9b-a624-4188771b945f",
+    "rerollPoints": {
+        "currentPoints": 0,
+        "maxRolls": 2,
+        "numberOfRolls": 0,
+        "pointsCostToRoll": 250,
+        "pointsToReroll": 250
+    },
+    "summonerId": 4123956255,
+    "summonerLevel": 100,
+    "unnamed": false,
+    "xpSinceLastLevel": 226,
+    "xpUntilNextLevel": 2592
+}{
+    "accountId": 4123956255,
+    "displayName": "FirstOnlyChoice",
+    "internalName": "FirstOnlyChoice",
+    "nameChangeFlag": false,
+    "percentCompleteForNextLevel": 8,
+    "profileIconId": 4379,
+    "puuid": "09cbf291-37db-5a9b-a624-4188771b945f",
+    "rerollPoints": {
+        "currentPoints": 0,
+        "maxRolls": 2,
+        "numberOfRolls": 0,
+        "pointsCostToRoll": 250,
+        "pointsToReroll": 250
+    },
+    "summonerId": 4123956255,
+    "summonerLevel": 100,
+    "unnamed": false,
+    "xpSinceLastLevel": 226,
+    "xpUntilNextLevel": 2592
+}

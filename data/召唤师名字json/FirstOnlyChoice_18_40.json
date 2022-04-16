@@ -1,0 +1,21 @@
+{
+    "accountId": 4050855651,
+    "displayName": "FirstOnlyChoice",
+    "internalName": "FirstOnlyChoice",
+    "nameChangeFlag": false,
+    "percentCompleteForNextLevel": 44,
+    "profileIconId": 5212,
+    "puuid": "4f194099-8a92-5ab9-8f76-b46f116739e0",
+    "rerollPoints": {
+        "currentPoints": 0,
+        "maxRolls": 2,
+        "numberOfRolls": 0,
+        "pointsCostToRoll": 250,
+        "pointsToReroll": 250
+    },
+    "summonerId": 4050855651,
+    "summonerLevel": 187,
+    "unnamed": false,
+    "xpSinceLastLevel": 1454,
+    "xpUntilNextLevel": 3264
+}
