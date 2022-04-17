@@ -38,7 +38,7 @@ func main() {
 		the_data := little_function.Get_Good_at_champion_data_from_rank30(account_ID, rank_30_data, czw_port_token, czw_champion_map)
 
 		for _, vvv := range the_data {
-			if len(vvv.Data_in_game_list) < 3 {
+			if len(vvv.Data_in_game_list) < 0 {
 				continue
 			}
 
