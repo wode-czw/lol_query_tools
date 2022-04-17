@@ -7,6 +7,7 @@ import (
 	"time"
 
 	"czw_lol_query_tools/Only_step"
+	"czw_lol_query_tools/get_port_token"
 	"czw_lol_query_tools/lcu"
 )
 
@@ -33,7 +34,7 @@ func Use_getAccountID_by_summonerName() {
 
 func Return_getAccountID_by_summonerName(account_name string) *lcu.CurrSummoner {
 
-	port_token := lcu.Get_port_token()
+	port_token := get_port_token.Return_port_token() + "/"
 
 	//根据召唤师名字返回召唤师信息，但是只能返回同一个大区的内容
 	inquire_name := account_name

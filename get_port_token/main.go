@@ -1,15 +1,16 @@
-package main
+package get_port_token
+
+//package get_port_token
 
 import (
 	"crypto/tls"
 	"flag"
 	"fmt"
-	"io"
 	"log"
 	"net/http"
 	"time"
 
-	"github.com/real-web-world/hh-lol-prophet/services/lcu"
+	"czw_lol_query_tools/lcu"
 )
 
 var (
@@ -31,10 +32,10 @@ var (
 	portFlag = flag.Int("port", 8098, "lcu 代理端口")
 )
 
-func main() {
+func Return_port_token() string {
 
 	flag.Parse()
-	port := *portFlag
+	//port := *portFlag
 	lcuPort, lcuToken, err := lcu.GetLolClientApiInfo()
 
 	if err != nil {
@@ -58,28 +59,33 @@ func main() {
 				continue
 			}
 			proxyURL = updateProxyURL
-			log.Println("update lcu:", proxyURL)
+			//log.Println("update lcu:", proxyURL)
 		}
 	}()
-	log.Printf("listen on :%d, lcu api:%s\n", port, proxyURL)
-	err = http.ListenAndServe(fmt.Sprintf(":%d", port), http.HandlerFunc(func(w http.ResponseWriter,
-		r *http.Request) {
-		req, _ := http.NewRequest(r.Method, proxyURL+r.URL.Path+"?"+r.URL.RawQuery, nil)
-		req.Body = r.Body
-		req.Header = r.Header
-		resp, err := cli.Do(req)
+	//log.Printf("listen on :%d, lcu api:%s\n", port, proxyURL)
+
+	return proxyURL
+	/*
+		err = http.ListenAndServe(fmt.Sprintf(":%d", port), http.HandlerFunc(func(w http.ResponseWriter,
+			r *http.Request) {
+			req, _ := http.NewRequest(r.Method, proxyURL+r.URL.Path+"?"+r.URL.RawQuery, nil)
+			req.Body = r.Body
+			req.Header = r.Header
+			resp, err := cli.Do(req)
+			if err != nil {
+				_, _ = fmt.Fprintf(w, "err : %v", err)
+				return
+			}
+			w.Header().Set("Content-Length", resp.Header.Get("Content-Length"))
+			w.Header().Set("Content-Type", resp.Header.Get("Content-Type"))
+			_, _ = io.Copy(w, resp.Body)
+			defer func() {
+				_ = resp.Body.Close()
+			}()
+		}))
 		if err != nil {
-			_, _ = fmt.Fprintf(w, "err : %v", err)
-			return
+			log.Fatal(err)
 		}
-		w.Header().Set("Content-Length", resp.Header.Get("Content-Length"))
-		w.Header().Set("Content-Type", resp.Header.Get("Content-Type"))
-		_, _ = io.Copy(w, resp.Body)
-		defer func() {
-			_ = resp.Body.Close()
-		}()
-	}))
-	if err != nil {
-		log.Fatal(err)
-	}
+	*/
+
 }

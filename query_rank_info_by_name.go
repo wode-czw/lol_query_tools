@@ -1,6 +1,7 @@
 package main
 
 import (
+	"czw_lol_query_tools/get_port_token"
 	"czw_lol_query_tools/lcu"
 	"czw_lol_query_tools/little_function"
 	"czw_lol_query_tools/tools"
@@ -13,20 +14,22 @@ func main() {
 
 	//account_name := "你们别抢我补位"
 	//account_name := "个人破产"
+	//account_name := "你霸气吗"
 	account_name := "荒火流霜"
 	fmt.Println("I am", account_name)
+	czw_port_token := get_port_token.Return_port_token() + "/"
 
 	ID_info := tools.Return_getAccountID_by_summonerName(account_name)
 
 	account_ID = ID_info.SummonerId
 
-	czw_port_token := lcu.Get_port_token()
+	//czw_port_token := lcu.Get_port_token()
 
 	czw_champion_map := tools.Get_champion_map("./data/champion_files/simple_champion_list.json")
 	var rank_30_data = make([]lcu.GameInfo, 0, 30)
 	var win_num int
 	var no_30 bool
-	rank_30_data, win_num, no_30 = tools.Get_rank30(rank_30_data, czw_port_token, account_ID, 450, 470)
+	rank_30_data, win_num, no_30 = tools.Get_rank30(rank_30_data, czw_port_token, account_ID, 0, 20)
 
 	fmt.Println("win number is ", win_num)
 
