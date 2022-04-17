@@ -58,4 +58,5 @@ func main() {
 		}
 	}
 	fmt.Printf("擅长英雄的平均伤害转化率为 %-5.2f", adverage_good_champion_MTD/use_time)
+	fmt.Println("a change from github")
 }
