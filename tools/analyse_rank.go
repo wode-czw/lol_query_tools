@@ -60,7 +60,7 @@ func Use_analyse_rank() {
 	//begin_number = 0
 	//end_number = 20
 
-	rank_30_info, win_num, if_30 = Get_rank30(rank_30_info, port_token, accountID, 0, 20)
+	rank_30_info, win_num, if_30 = Get_rank30(rank_30_info, port_token, accountID, 0, 20, 30)
 
 	czw_champion_map := Get_champion_map("../data/champion_files/simple_champion_list.json")
 
@@ -247,7 +247,7 @@ func Show_what_you_get(rank_30_info []lcu.GameInfo, czw_champion_map map[int]str
 	return average_d_to_m
 }
 
-func Get_rank30(rank_30_info []lcu.GameInfo, port_token string, accountID int64, bn, en int) ([]lcu.GameInfo, int, bool) {
+func Get_rank30(rank_30_info []lcu.GameInfo, port_token string, accountID int64, bn, en, rank_cap int) ([]lcu.GameInfo, int, bool) {
 	var begin_number int
 	var end_number int
 	begin_number = bn
@@ -255,6 +255,7 @@ func Get_rank30(rank_30_info []lcu.GameInfo, port_token string, accountID int64,
 
 	win_number := 0
 
+	fmt.Println("In Get rank30function cap is ", rank_cap)
 	no_30 := false
 	for {
 
@@ -265,8 +266,8 @@ func Get_rank30(rank_30_info []lcu.GameInfo, port_token string, accountID int64,
 		data_struct := Body_to_struct(czw_client, url) //读取body对象到结构体中
 
 		if len(data_struct.Games.Games) == 0 {
-
-			fmt.Errorf("单双排数据不足30把，程序终止")
+			//既然数据还没有停下来。就说明还没有到达我们的要求
+			fmt.Errorf("单双排数据不足%3d把，程序终止", rank_cap)
 			no_30 = true
 			fmt.Println("不足30把")
 			break
@@ -283,7 +284,7 @@ func Get_rank30(rank_30_info []lcu.GameInfo, port_token string, accountID int64,
 
 				}
 
-				if len(rank_30_info) >= 30 {
+				if len(rank_30_info) >= rank_cap {
 
 					break
 				}
@@ -292,7 +293,7 @@ func Get_rank30(rank_30_info []lcu.GameInfo, port_token string, accountID int64,
 
 		}
 
-		if len(rank_30_info) >= 30 {
+		if len(rank_30_info) >= rank_cap {
 
 			break
 		}
@@ -301,6 +302,7 @@ func Get_rank30(rank_30_info []lcu.GameInfo, port_token string, accountID int64,
 		end_number = end_number + 20
 
 	}
+	fmt.Println("I am len(rank_30_info):", len(rank_30_info))
 	return rank_30_info, win_number, no_30
 
 }

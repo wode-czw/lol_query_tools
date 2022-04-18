@@ -1,0 +1,14 @@
+{
+    "errorCode": "",
+    "httpStatus": 0,
+    "message": "",
+    "accountId": 0,
+    "games": {
+        "gameBeginDate": "",
+        "gameCount": 0,
+        "gameEndDate": "",
+        "gameIndexBegin": 0,
+        "gameIndexEnd": 0,
+        "games": null
+    }
+}

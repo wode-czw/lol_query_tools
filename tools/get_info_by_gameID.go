@@ -2,6 +2,7 @@ package tools
 
 import (
 	"encoding/json"
+	"fmt"
 	"os"
 	"strconv"
 	"time"
@@ -15,13 +16,19 @@ import (
 func Get_MTD_by_gameID_v1(gameID int, port_token string) {
 	czw_client := New_client()
 	query_command := "lol-match-history/v1/games/" + strconv.Itoa(gameID)
-	my_url := port_token + query_command
+	my_url := port_token + "/" + query_command
 	czw_data_struct := Body_to_struct(czw_client, my_url)
 
 	resp2, _ := json.MarshalIndent(czw_data_struct, "", "    ")
-	file_path := "../data/gameID_info/"
+	file_path := "data/gameID_info/"                                                                                                                                                   //这个得看调用的函数在哪了
 	file_name := time.Now().Format("2006-01-02 15:04:05 Mon Jan")[11:13] + "_" + time.Now().Format("2006-01-02 15:04:05 Mon Jan")[14:16] + "_gameID_" + strconv.Itoa(gameID) + ".json" //hour_min
-	fileobj, _ := os.OpenFile(file_path+file_name, os.O_APPEND|os.O_CREATE, 0644)
+	fmt.Println(file_path + file_name)
+	fileobj, err := os.OpenFile(file_path+file_name, os.O_APPEND|os.O_CREATE, 0644)
+
+	if err != nil {
+
+		panic(err)
+	}
 	fileobj.Write([]byte(resp2))
 
 }

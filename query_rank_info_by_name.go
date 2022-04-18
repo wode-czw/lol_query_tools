@@ -1,6 +1,7 @@
 package main
 
 import (
+	"czw_lol_query_tools/get_config"
 	"czw_lol_query_tools/get_port_token"
 	"czw_lol_query_tools/lcu"
 	"czw_lol_query_tools/little_function"
@@ -10,26 +11,26 @@ import (
 
 func main() {
 	fmt.Println("Hi")
-	var account_ID int64
 
-	//account_name := "你们别抢我补位"
-	//account_name := "个人破产"
-	//account_name := "你霸气吗"
-	account_name := "荒火流霜"
-	fmt.Println("I am", account_name)
+	var czw_query_config get_config.Query_config
+	czw_query_config = get_config.Return_query_config()
+	//===========================================================
+
+	fmt.Println("I am", czw_query_config.Account_name)
 	czw_port_token := get_port_token.Return_port_token() + "/"
 
-	ID_info := tools.Return_getAccountID_by_summonerName(account_name)
-
-	account_ID = ID_info.SummonerId
+	ID_info := tools.Return_getAccountID_by_summonerName(czw_query_config.Account_name)
+	account_ID := ID_info.SummonerId
 
 	//czw_port_token := lcu.Get_port_token()
 
 	czw_champion_map := tools.Get_champion_map("./data/champion_files/simple_champion_list.json")
-	var rank_30_data = make([]lcu.GameInfo, 0, 30)
+	var rank_30_data = make([]lcu.GameInfo, 0, czw_query_config.Rank_number)
+
 	var win_num int
 	var no_30 bool
-	rank_30_data, win_num, no_30 = tools.Get_rank30(rank_30_data, czw_port_token, account_ID, 0, 20)
+	fmt.Println(cap(rank_30_data))
+	rank_30_data, win_num, no_30 = tools.Get_rank30(rank_30_data, czw_port_token, account_ID, czw_query_config.Begin_number, czw_query_config.End_number, cap(rank_30_data))
 
 	fmt.Println("win number is ", win_num)
 
@@ -41,7 +42,7 @@ func main() {
 		the_data := little_function.Get_Good_at_champion_data_from_rank30(account_ID, rank_30_data, czw_port_token, czw_champion_map)
 
 		for _, vvv := range the_data {
-			if len(vvv.Data_in_game_list) < 0 {
+			if len(vvv.Data_in_game_list) < czw_query_config.Good_champion_use_number_more_than {
 				continue
 			}
 

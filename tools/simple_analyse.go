@@ -54,7 +54,7 @@ func Use_simple_analyse() {
 	//begin_number = 0
 	//end_number = 20
 
-	rank_30_info, win_num, if_30 = Get_rank30(rank_30_info, port_token, accountID, 0, 20)
+	rank_30_info, win_num, if_30 = Get_rank30(rank_30_info, port_token, accountID, 0, 20, 30)
 
 	czw_champion_map := Get_champion_map("../data/champion_files/simple_champion_list.json")
 

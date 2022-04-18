@@ -57,10 +57,10 @@ func main() {
 	var rank_30_info = make([]lcu.GameInfo, 0, 30)
 	var win_num int
 	var if_30 bool
-	//begin_number = 0
-	//end_number = 20
+	begin_number := 0
+	end_number := 20
 
-	rank_30_info, win_num, if_30 = Get_rank30(rank_30_info, port_token, accountID, 0, 20)
+	rank_30_info, win_num, if_30 = S_Get_rank30(rank_30_info, port_token, accountID, begin_number, end_number, 30)
 
 	czw_champion_map := Get_champion_map("../data/champion_files/simple_champion_list.json")
 
@@ -76,25 +76,6 @@ func main() {
 	fmt.Println("end")
 }
 
-//########################other function
-//########################other function
-//########################other function
-//########################other function
-//########################other function
-//########################other function
-//########################other function
-//########################other function
-//########################other function
-//########################other function
-//########################other function
-//########################other function
-//########################other function
-//########################other function
-//########################other function
-//########################other function
-//########################other function
-//########################other function
-//########################other function
 //########################other function
 
 func New_client() *http.Client {
@@ -247,7 +228,7 @@ func show_what_you_get(rank_30_info []lcu.GameInfo, czw_champion_map map[int]str
 	return average_d_to_m
 }
 
-func Get_rank30(rank_30_info []lcu.GameInfo, port_token string, accountID int64, bn, en int) ([]lcu.GameInfo, int, bool) {
+func S_Get_rank30(rank_30_info []lcu.GameInfo, port_token string, accountID int64, bn int, en int, rank_cap int) ([]lcu.GameInfo, int, bool) {
 	var begin_number int
 	var end_number int
 	begin_number = bn
@@ -286,7 +267,7 @@ func Get_rank30(rank_30_info []lcu.GameInfo, port_token string, accountID int64,
 
 				}
 
-				if len(rank_30_info) >= 30 {
+				if len(rank_30_info) >= rank_cap {
 
 					break
 				}

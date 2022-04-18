@@ -184,7 +184,7 @@ func Show_what_you_get(rank_30_info []lcu.GameInfo, czw_champion_map map[int]str
 	return average_d_to_m
 }
 
-func Get_rank30(rank_30_info []lcu.GameInfo, port_token string, accountID int64, bn, en int) ([]lcu.GameInfo, int, bool) {
+func Get_rank30(rank_30_info []lcu.GameInfo, port_token string, accountID int64, bn, en, rank_cap int) ([]lcu.GameInfo, int, bool) {
 	var begin_number int
 	var end_number int
 	begin_number = bn
@@ -223,7 +223,7 @@ func Get_rank30(rank_30_info []lcu.GameInfo, port_token string, accountID int64,
 
 				}
 
-				if len(rank_30_info) >= 30 {
+				if len(rank_30_info) >= rank_cap {
 
 					break
 				}
@@ -303,6 +303,8 @@ func Get_MTD_by_gameID_v2(gameID int64, account_ID int64, port_token string) (fl
 		continue
 
 	}
+
+	fmt.Println(gameID)
 
 	my_damge := float32(czw_data_struct.Participants[my_order].Stats.TotalDamageDealtToChampions)
 	my_money := float32(czw_data_struct.Participants[my_order].Stats.GoldEarned)
