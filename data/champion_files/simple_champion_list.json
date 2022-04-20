@@ -1,0 +1,1186 @@
+{
+    "Data": {
+        "Aatrox": {
+            "id": 266,
+            "Name": "Aatrox",
+            "Tags": [
+                "Fighter",
+                "Tank"
+            ]
+        },
+        "Ahri": {
+            "id": 103,
+            "Name": "Ahri",
+            "Tags": [
+                "Mage",
+                "Assassin"
+            ]
+        },
+        "Akali": {
+            "id": 84,
+            "Name": "Akali",
+            "Tags": [
+                "Assassin"
+            ]
+        },
+        "Akshan": {
+            "id": 166,
+            "Name": "Akshan",
+            "Tags": [
+                "Marksman",
+                "Assassin"
+            ]
+        },
+        "Alistar": {
+            "id": 12,
+            "Name": "Alistar",
+            "Tags": [
+                "Tank",
+                "Support"
+            ]
+        },
+        "Amumu": {
+            "id": 32,
+            "Name": "Amumu",
+            "Tags": [
+                "Tank",
+                "Mage"
+            ]
+        },
+        "Anivia": {
+            "id": 34,
+            "Name": "Anivia",
+            "Tags": [
+                "Mage",
+                "Support"
+            ]
+        },
+        "Annie": {
+            "id": 1,
+            "Name": "Annie",
+            "Tags": [
+                "Mage"
+            ]
+        },
+        "Aphelios": {
+            "id": 523,
+            "Name": "Aphelios",
+            "Tags": [
+                "Marksman"
+            ]
+        },
+        "Ashe": {
+            "id": 22,
+            "Name": "Ashe",
+            "Tags": [
+                "Marksman",
+                "Support"
+            ]
+        },
+        "Aurelion Sol": {
+            "id": 136,
+            "Name": "Aurelion Sol",
+            "Tags": null
+        },
+        "Azir": {
+            "id": 268,
+            "Name": "Azir",
+            "Tags": [
+                "Mage",
+                "Marksman"
+            ]
+        },
+        "Bard": {
+            "id": 432,
+            "Name": "Bard",
+            "Tags": [
+                "Support",
+                "Mage"
+            ]
+        },
+        "Blitzcrank": {
+            "id": 53,
+            "Name": "Blitzcrank",
+            "Tags": [
+                "Tank",
+                "Fighter"
+            ]
+        },
+        "Brand": {
+            "id": 63,
+            "Name": "Brand",
+            "Tags": [
+                "Mage"
+            ]
+        },
+        "Braum": {
+            "id": 201,
+            "Name": "Braum",
+            "Tags": [
+                "Support",
+                "Tank"
+            ]
+        },
+        "Caitlyn": {
+            "id": 51,
+            "Name": "Caitlyn",
+            "Tags": [
+                "Marksman"
+            ]
+        },
+        "Camille": {
+            "id": 164,
+            "Name": "Camille",
+            "Tags": [
+                "Fighter",
+                "Tank"
+            ]
+        },
+        "Cassiopeia": {
+            "id": 69,
+            "Name": "Cassiopeia",
+            "Tags": [
+                "Mage"
+            ]
+        },
+        "Cho'Gath": {
+            "id": 31,
+            "Name": "Cho'Gath",
+            "Tags": null
+        },
+        "Corki": {
+            "id": 42,
+            "Name": "Corki",
+            "Tags": [
+                "Marksman"
+            ]
+        },
+        "Darius": {
+            "id": 122,
+            "Name": "Darius",
+            "Tags": [
+                "Fighter",
+                "Tank"
+            ]
+        },
+        "Diana": {
+            "id": 131,
+            "Name": "Diana",
+            "Tags": [
+                "Fighter",
+                "Mage"
+            ]
+        },
+        "Dr. Mundo": {
+            "id": 36,
+            "Name": "Dr. Mundo",
+            "Tags": null
+        },
+        "Draven": {
+            "id": 119,
+            "Name": "Draven",
+            "Tags": [
+                "Marksman"
+            ]
+        },
+        "Ekko": {
+            "id": 245,
+            "Name": "Ekko",
+            "Tags": [
+                "Assassin",
+                "Fighter"
+            ]
+        },
+        "Elise": {
+            "id": 60,
+            "Name": "Elise",
+            "Tags": [
+                "Mage",
+                "Fighter"
+            ]
+        },
+        "Evelynn": {
+            "id": 28,
+            "Name": "Evelynn",
+            "Tags": [
+                "Assassin",
+                "Mage"
+            ]
+        },
+        "Ezreal": {
+            "id": 81,
+            "Name": "Ezreal",
+            "Tags": [
+                "Marksman",
+                "Mage"
+            ]
+        },
+        "Fiddlesticks": {
+            "id": 9,
+            "Name": "Fiddlesticks",
+            "Tags": [
+                "Mage",
+                "Support"
+            ]
+        },
+        "Fiora": {
+            "id": 114,
+            "Name": "Fiora",
+            "Tags": [
+                "Fighter",
+                "Assassin"
+            ]
+        },
+        "Fizz": {
+            "id": 105,
+            "Name": "Fizz",
+            "Tags": [
+                "Assassin",
+                "Fighter"
+            ]
+        },
+        "Galio": {
+            "id": 3,
+            "Name": "Galio",
+            "Tags": [
+                "Tank",
+                "Mage"
+            ]
+        },
+        "Gangplank": {
+            "id": 41,
+            "Name": "Gangplank",
+            "Tags": [
+                "Fighter"
+            ]
+        },
+        "Garen": {
+            "id": 86,
+            "Name": "Garen",
+            "Tags": [
+                "Fighter",
+                "Tank"
+            ]
+        },
+        "Gnar": {
+            "id": 150,
+            "Name": "Gnar",
+            "Tags": [
+                "Fighter",
+                "Tank"
+            ]
+        },
+        "Gragas": {
+            "id": 79,
+            "Name": "Gragas",
+            "Tags": [
+                "Fighter",
+                "Mage"
+            ]
+        },
+        "Graves": {
+            "id": 104,
+            "Name": "Graves",
+            "Tags": [
+                "Marksman"
+            ]
+        },
+        "Gwen": {
+            "id": 887,
+            "Name": "Gwen",
+            "Tags": [
+                "Fighter",
+                "Assassin"
+            ]
+        },
+        "Hecarim": {
+            "id": 120,
+            "Name": "Hecarim",
+            "Tags": [
+                "Fighter",
+                "Tank"
+            ]
+        },
+        "Heimerdinger": {
+            "id": 74,
+            "Name": "Heimerdinger",
+            "Tags": [
+                "Mage",
+                "Support"
+            ]
+        },
+        "Illaoi": {
+            "id": 420,
+            "Name": "Illaoi",
+            "Tags": [
+                "Fighter",
+                "Tank"
+            ]
+        },
+        "Irelia": {
+            "id": 39,
+            "Name": "Irelia",
+            "Tags": [
+                "Fighter",
+                "Assassin"
+            ]
+        },
+        "Ivern": {
+            "id": 427,
+            "Name": "Ivern",
+            "Tags": [
+                "Support",
+                "Mage"
+            ]
+        },
+        "Janna": {
+            "id": 40,
+            "Name": "Janna",
+            "Tags": [
+                "Support",
+                "Mage"
+            ]
+        },
+        "Jarvan IV": {
+            "id": 59,
+            "Name": "Jarvan IV",
+            "Tags": null
+        },
+        "Jax": {
+            "id": 24,
+            "Name": "Jax",
+            "Tags": [
+                "Fighter",
+                "Assassin"
+            ]
+        },
+        "Jayce": {
+            "id": 126,
+            "Name": "Jayce",
+            "Tags": [
+                "Fighter",
+                "Marksman"
+            ]
+        },
+        "Jhin": {
+            "id": 202,
+            "Name": "Jhin",
+            "Tags": [
+                "Marksman",
+                "Mage"
+            ]
+        },
+        "Jinx": {
+            "id": 222,
+            "Name": "Jinx",
+            "Tags": [
+                "Marksman"
+            ]
+        },
+        "Kai'Sa": {
+            "id": 145,
+            "Name": "Kai'Sa",
+            "Tags": null
+        },
+        "Kalista": {
+            "id": 429,
+            "Name": "Kalista",
+            "Tags": [
+                "Marksman"
+            ]
+        },
+        "Karma": {
+            "id": 43,
+            "Name": "Karma",
+            "Tags": [
+                "Mage",
+                "Support"
+            ]
+        },
+        "Karthus": {
+            "id": 30,
+            "Name": "Karthus",
+            "Tags": [
+                "Mage"
+            ]
+        },
+        "Kassadin": {
+            "id": 38,
+            "Name": "Kassadin",
+            "Tags": [
+                "Assassin",
+                "Mage"
+            ]
+        },
+        "Katarina": {
+            "id": 55,
+            "Name": "Katarina",
+            "Tags": [
+                "Assassin",
+                "Mage"
+            ]
+        },
+        "Kayle": {
+            "id": 10,
+            "Name": "Kayle",
+            "Tags": [
+                "Fighter",
+                "Support"
+            ]
+        },
+        "Kayn": {
+            "id": 141,
+            "Name": "Kayn",
+            "Tags": [
+                "Fighter",
+                "Assassin"
+            ]
+        },
+        "Kennen": {
+            "id": 85,
+            "Name": "Kennen",
+            "Tags": [
+                "Mage",
+                "Marksman"
+            ]
+        },
+        "Kha'Zix": {
+            "id": 121,
+            "Name": "Kha'Zix",
+            "Tags": null
+        },
+        "Kindred": {
+            "id": 203,
+            "Name": "Kindred",
+            "Tags": [
+                "Marksman"
+            ]
+        },
+        "Kled": {
+            "id": 240,
+            "Name": "Kled",
+            "Tags": [
+                "Fighter",
+                "Tank"
+            ]
+        },
+        "Kog'Maw": {
+            "id": 96,
+            "Name": "Kog'Maw",
+            "Tags": null
+        },
+        "LeBlanc": {
+            "id": 7,
+            "Name": "LeBlanc",
+            "Tags": null
+        },
+        "Lee Sin": {
+            "id": 64,
+            "Name": "Lee Sin",
+            "Tags": null
+        },
+        "Leona": {
+            "id": 89,
+            "Name": "Leona",
+            "Tags": [
+                "Tank",
+                "Support"
+            ]
+        },
+        "Lillia": {
+            "id": 876,
+            "Name": "Lillia",
+            "Tags": [
+                "Fighter",
+                "Mage"
+            ]
+        },
+        "Lissandra": {
+            "id": 127,
+            "Name": "Lissandra",
+            "Tags": [
+                "Mage"
+            ]
+        },
+        "Lucian": {
+            "id": 236,
+            "Name": "Lucian",
+            "Tags": [
+                "Marksman"
+            ]
+        },
+        "Lulu": {
+            "id": 117,
+            "Name": "Lulu",
+            "Tags": [
+                "Support",
+                "Mage"
+            ]
+        },
+        "Lux": {
+            "id": 99,
+            "Name": "Lux",
+            "Tags": [
+                "Mage",
+                "Support"
+            ]
+        },
+        "Malphite": {
+            "id": 54,
+            "Name": "Malphite",
+            "Tags": [
+                "Tank",
+                "Fighter"
+            ]
+        },
+        "Malzahar": {
+            "id": 90,
+            "Name": "Malzahar",
+            "Tags": [
+                "Mage",
+                "Assassin"
+            ]
+        },
+        "Maokai": {
+            "id": 57,
+            "Name": "Maokai",
+            "Tags": [
+                "Tank",
+                "Mage"
+            ]
+        },
+        "Master Yi": {
+            "id": 11,
+            "Name": "Master Yi",
+            "Tags": null
+        },
+        "Miss Fortune": {
+            "id": 21,
+            "Name": "Miss Fortune",
+            "Tags": null
+        },
+        "Mordekaiser": {
+            "id": 82,
+            "Name": "Mordekaiser",
+            "Tags": [
+                "Fighter"
+            ]
+        },
+        "Morgana": {
+            "id": 25,
+            "Name": "Morgana",
+            "Tags": [
+                "Mage",
+                "Support"
+            ]
+        },
+        "Nami": {
+            "id": 267,
+            "Name": "Nami",
+            "Tags": [
+                "Support",
+                "Mage"
+            ]
+        },
+        "Nasus": {
+            "id": 75,
+            "Name": "Nasus",
+            "Tags": [
+                "Fighter",
+                "Tank"
+            ]
+        },
+        "Nautilus": {
+            "id": 111,
+            "Name": "Nautilus",
+            "Tags": [
+                "Tank",
+                "Fighter"
+            ]
+        },
+        "Neeko": {
+            "id": 518,
+            "Name": "Neeko",
+            "Tags": [
+                "Mage",
+                "Support"
+            ]
+        },
+        "Nidalee": {
+            "id": 76,
+            "Name": "Nidalee",
+            "Tags": [
+                "Assassin",
+                "Mage"
+            ]
+        },
+        "Nocturne": {
+            "id": 56,
+            "Name": "Nocturne",
+            "Tags": [
+                "Assassin",
+                "Fighter"
+            ]
+        },
+        "Nunu \u0026 Willump": {
+            "id": 20,
+            "Name": "Nunu \u0026 Willump",
+            "Tags": null
+        },
+        "Olaf": {
+            "id": 2,
+            "Name": "Olaf",
+            "Tags": [
+                "Fighter",
+                "Tank"
+            ]
+        },
+        "Orianna": {
+            "id": 61,
+            "Name": "Orianna",
+            "Tags": [
+                "Mage",
+                "Support"
+            ]
+        },
+        "Ornn": {
+            "id": 516,
+            "Name": "Ornn",
+            "Tags": [
+                "Tank",
+                "Fighter"
+            ]
+        },
+        "Pantheon": {
+            "id": 80,
+            "Name": "Pantheon",
+            "Tags": [
+                "Fighter",
+                "Assassin"
+            ]
+        },
+        "Poppy": {
+            "id": 78,
+            "Name": "Poppy",
+            "Tags": [
+                "Tank",
+                "Fighter"
+            ]
+        },
+        "Pyke": {
+            "id": 555,
+            "Name": "Pyke",
+            "Tags": [
+                "Support",
+                "Assassin"
+            ]
+        },
+        "Qiyana": {
+            "id": 246,
+            "Name": "Qiyana",
+            "Tags": [
+                "Assassin",
+                "Fighter"
+            ]
+        },
+        "Quinn": {
+            "id": 133,
+            "Name": "Quinn",
+            "Tags": [
+                "Marksman",
+                "Assassin"
+            ]
+        },
+        "Rakan": {
+            "id": 497,
+            "Name": "Rakan",
+            "Tags": [
+                "Support"
+            ]
+        },
+        "Rammus": {
+            "id": 33,
+            "Name": "Rammus",
+            "Tags": [
+                "Tank",
+                "Fighter"
+            ]
+        },
+        "Rek'Sai": {
+            "id": 421,
+            "Name": "Rek'Sai",
+            "Tags": null
+        },
+        "Rell": {
+            "id": 526,
+            "Name": "Rell",
+            "Tags": [
+                "Tank"
+            ]
+        },
+        "Renata Glasc": {
+            "id": 888,
+            "Name": "Renata Glasc",
+            "Tags": null
+        },
+        "Renekton": {
+            "id": 58,
+            "Name": "Renekton",
+            "Tags": [
+                "Fighter",
+                "Tank"
+            ]
+        },
+        "Rengar": {
+            "id": 107,
+            "Name": "Rengar",
+            "Tags": [
+                "Assassin",
+                "Fighter"
+            ]
+        },
+        "Riven": {
+            "id": 92,
+            "Name": "Riven",
+            "Tags": [
+                "Fighter",
+                "Assassin"
+            ]
+        },
+        "Rumble": {
+            "id": 68,
+            "Name": "Rumble",
+            "Tags": [
+                "Fighter",
+                "Mage"
+            ]
+        },
+        "Ryze": {
+            "id": 13,
+            "Name": "Ryze",
+            "Tags": [
+                "Mage",
+                "Fighter"
+            ]
+        },
+        "Samira": {
+            "id": 360,
+            "Name": "Samira",
+            "Tags": [
+                "Marksman"
+            ]
+        },
+        "Sejuani": {
+            "id": 113,
+            "Name": "Sejuani",
+            "Tags": [
+                "Tank",
+                "Fighter"
+            ]
+        },
+        "Senna": {
+            "id": 235,
+            "Name": "Senna",
+            "Tags": [
+                "Marksman",
+                "Support"
+            ]
+        },
+        "Seraphine": {
+            "id": 147,
+            "Name": "Seraphine",
+            "Tags": [
+                "Mage",
+                "Support"
+            ]
+        },
+        "Sett": {
+            "id": 875,
+            "Name": "Sett",
+            "Tags": [
+                "Fighter",
+                "Tank"
+            ]
+        },
+        "Shaco": {
+            "id": 35,
+            "Name": "Shaco",
+            "Tags": [
+                "Assassin"
+            ]
+        },
+        "Shen": {
+            "id": 98,
+            "Name": "Shen",
+            "Tags": [
+                "Tank"
+            ]
+        },
+        "Shyvana": {
+            "id": 102,
+            "Name": "Shyvana",
+            "Tags": [
+                "Fighter",
+                "Tank"
+            ]
+        },
+        "Singed": {
+            "id": 27,
+            "Name": "Singed",
+            "Tags": [
+                "Tank",
+                "Fighter"
+            ]
+        },
+        "Sion": {
+            "id": 14,
+            "Name": "Sion",
+            "Tags": [
+                "Tank",
+                "Fighter"
+            ]
+        },
+        "Sivir": {
+            "id": 15,
+            "Name": "Sivir",
+            "Tags": [
+                "Marksman"
+            ]
+        },
+        "Skarner": {
+            "id": 72,
+            "Name": "Skarner",
+            "Tags": [
+                "Fighter",
+                "Tank"
+            ]
+        },
+        "Sona": {
+            "id": 37,
+            "Name": "Sona",
+            "Tags": [
+                "Support",
+                "Mage"
+            ]
+        },
+        "Soraka": {
+            "id": 16,
+            "Name": "Soraka",
+            "Tags": [
+                "Support",
+                "Mage"
+            ]
+        },
+        "Swain": {
+            "id": 50,
+            "Name": "Swain",
+            "Tags": [
+                "Mage",
+                "Fighter"
+            ]
+        },
+        "Sylas": {
+            "id": 517,
+            "Name": "Sylas",
+            "Tags": [
+                "Mage",
+                "Assassin"
+            ]
+        },
+        "Syndra": {
+            "id": 134,
+            "Name": "Syndra",
+            "Tags": [
+                "Mage",
+                "Support"
+            ]
+        },
+        "Tahm Kench": {
+            "id": 223,
+            "Name": "Tahm Kench",
+            "Tags": null
+        },
+        "Taliyah": {
+            "id": 163,
+            "Name": "Taliyah",
+            "Tags": [
+                "Mage",
+                "Support"
+            ]
+        },
+        "Talon": {
+            "id": 91,
+            "Name": "Talon",
+            "Tags": [
+                "Assassin"
+            ]
+        },
+        "Taric": {
+            "id": 44,
+            "Name": "Taric",
+            "Tags": [
+                "Support",
+                "Fighter"
+            ]
+        },
+        "Teemo": {
+            "id": 17,
+            "Name": "Teemo",
+            "Tags": [
+                "Marksman",
+                "Assassin"
+            ]
+        },
+        "Thresh": {
+            "id": 412,
+            "Name": "Thresh",
+            "Tags": [
+                "Support",
+                "Fighter"
+            ]
+        },
+        "Tristana": {
+            "id": 18,
+            "Name": "Tristana",
+            "Tags": [
+                "Marksman",
+                "Assassin"
+            ]
+        },
+        "Trundle": {
+            "id": 48,
+            "Name": "Trundle",
+            "Tags": [
+                "Fighter",
+                "Tank"
+            ]
+        },
+        "Tryndamere": {
+            "id": 23,
+            "Name": "Tryndamere",
+            "Tags": [
+                "Fighter",
+                "Assassin"
+            ]
+        },
+        "Twisted Fate": {
+            "id": 4,
+            "Name": "Twisted Fate",
+            "Tags": null
+        },
+        "Twitch": {
+            "id": 29,
+            "Name": "Twitch",
+            "Tags": [
+                "Marksman",
+                "Assassin"
+            ]
+        },
+        "Udyr": {
+            "id": 77,
+            "Name": "Udyr",
+            "Tags": [
+                "Fighter",
+                "Tank"
+            ]
+        },
+        "Urgot": {
+            "id": 6,
+            "Name": "Urgot",
+            "Tags": [
+                "Fighter",
+                "Tank"
+            ]
+        },
+        "Varus": {
+            "id": 110,
+            "Name": "Varus",
+            "Tags": [
+                "Marksman",
+                "Mage"
+            ]
+        },
+        "Vayne": {
+            "id": 67,
+            "Name": "Vayne",
+            "Tags": [
+                "Marksman",
+                "Assassin"
+            ]
+        },
+        "Veigar": {
+            "id": 45,
+            "Name": "Veigar",
+            "Tags": [
+                "Mage"
+            ]
+        },
+        "Vel'Koz": {
+            "id": 161,
+            "Name": "Vel'Koz",
+            "Tags": null
+        },
+        "Vex": {
+            "id": 711,
+            "Name": "Vex",
+            "Tags": [
+                "Mage"
+            ]
+        },
+        "Vi": {
+            "id": 254,
+            "Name": "Vi",
+            "Tags": [
+                "Fighter",
+                "Assassin"
+            ]
+        },
+        "Viego": {
+            "id": 234,
+            "Name": "Viego",
+            "Tags": [
+                "Assassin",
+                "Fighter"
+            ]
+        },
+        "Viktor": {
+            "id": 112,
+            "Name": "Viktor",
+            "Tags": [
+                "Mage"
+            ]
+        },
+        "Vladimir": {
+            "id": 8,
+            "Name": "Vladimir",
+            "Tags": [
+                "Mage"
+            ]
+        },
+        "Volibear": {
+            "id": 106,
+            "Name": "Volibear",
+            "Tags": [
+                "Fighter",
+                "Tank"
+            ]
+        },
+        "Warwick": {
+            "id": 19,
+            "Name": "Warwick",
+            "Tags": [
+                "Fighter",
+                "Tank"
+            ]
+        },
+        "Wukong": {
+            "id": 62,
+            "Name": "Wukong",
+            "Tags": null
+        },
+        "Xayah": {
+            "id": 498,
+            "Name": "Xayah",
+            "Tags": [
+                "Marksman"
+            ]
+        },
+        "Xerath": {
+            "id": 101,
+            "Name": "Xerath",
+            "Tags": [
+                "Mage"
+            ]
+        },
+        "Xin Zhao": {
+            "id": 5,
+            "Name": "Xin Zhao",
+            "Tags": null
+        },
+        "Yasuo": {
+            "id": 157,
+            "Name": "Yasuo",
+            "Tags": [
+                "Fighter",
+                "Assassin"
+            ]
+        },
+        "Yone": {
+            "id": 777,
+            "Name": "Yone",
+            "Tags": [
+                "Assassin",
+                "Fighter"
+            ]
+        },
+        "Yorick": {
+            "id": 83,
+            "Name": "Yorick",
+            "Tags": [
+                "Fighter",
+                "Tank"
+            ]
+        },
+        "Yuumi": {
+            "id": 350,
+            "Name": "Yuumi",
+            "Tags": [
+                "Support",
+                "Mage"
+            ]
+        },
+        "Zac": {
+            "id": 154,
+            "Name": "Zac",
+            "Tags": [
+                "Tank",
+                "Fighter"
+            ]
+        },
+        "Zed": {
+            "id": 238,
+            "Name": "Zed",
+            "Tags": [
+                "Assassin"
+            ]
+        },
+        "Zeri": {
+            "id": 221,
+            "Name": "Zeri",
+            "Tags": [
+                "Marksman"
+            ]
+        },
+        "Ziggs": {
+            "id": 115,
+            "Name": "Ziggs",
+            "Tags": [
+                "Mage"
+            ]
+        },
+        "Zilean": {
+            "id": 26,
+            "Name": "Zilean",
+            "Tags": [
+                "Support",
+                "Mage"
+            ]
+        },
+        "Zoe": {
+            "id": 142,
+            "Name": "Zoe",
+            "Tags": [
+                "Mage",
+                "Support"
+            ]
+        },
+        "Zyra": {
+            "id": 143,
+            "Name": "Zyra",
+            "Tags": [
+                "Mage",
+                "Support"
+            ]
+        }
+    }
+}
